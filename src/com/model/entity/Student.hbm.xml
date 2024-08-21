@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name = "com.model.entity.Student" table = "StudentDB">
+    <id name = "id" column = "sId"></id>
+    <property name="name" column = "sName" type = "string" length = "45"></property>
+    <property name="email" column = "sEmail" type = "string" length = "45"></property>
+    <property name="city" column = "sCity" type = "string" length = "45"></property>
+    </class>
+    </hibernate-mapping>
